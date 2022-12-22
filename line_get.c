@@ -10,6 +10,7 @@ char *line_get(void)
 	char *buffer = NULL;
 	size_t len = 0;
 	ssize_t n;
+
 	n = getline(&buffer, &len, stdin);
 	if (n == -1)
 	{

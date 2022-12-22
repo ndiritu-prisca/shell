@@ -22,7 +22,7 @@ int main(int ac, char *av[])
 		buf = line_get();
 		token = tokenize(buf);
 		check_str(buf, token);
-		
+
 	}
 	return (0);
 }

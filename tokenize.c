@@ -10,7 +10,7 @@ char **tokenize(char *buf)
 {
 	int i;
 	char *str;
-	char **token = malloc(sizeof(char *) * 1024) ;
+	char **token = malloc(sizeof(char *) * 1024);
 
 	str = strtok(buf, " \n");
 	for (i = 0; str != NULL; i++)
