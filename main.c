@@ -16,7 +16,7 @@ int main(int ac, char *av[])
 		char **token;
 		char *buf;
 
-		printf("#cisfun$ ");
+		printf(":) ");
 
 
 		buf = line_get();
